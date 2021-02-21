@@ -21,7 +21,7 @@ export default class RedBoxStream {
                         token.substring(tokenLen - 42, tokenLen - 34),
                         token.substring(tokenLen - 33),
                     ].join('');
-                data = ['http://51.15.209.90:8800/fio/3b.rbt/', 'eWFyYXBuYWthYW1rYXJvOnR1bmduYWtpYWthcm8=', fixToken];
+                data = ['http://135.181.2.111:8800/fio/3b.rbt/', 'eWFyYXBuYWthYW1rYXJvOnR1bmduYWtpYWthcm8=', fixToken];
                 break;
             case 48:
                 fixToken = (token: string, tokenLen: number) => {
@@ -37,7 +37,7 @@ export default class RedBoxStream {
                     splitted.splice(splitted.length + 5 - 6 - now.getDate(), 1);
                     return splitted.join('');
                 };
-                data = ['http://51.15.209.90:8800/cip/4c.rbt/', 'QDA3NzEyMSM6QDA3NzEyMSM=', fixToken];
+                data = ['http://135.181.2.111:8800/fio/4c.rbt/', 'QDA3NzEyMSM6QDA3NzEyMSM=', fixToken];
                 break;
             default:
                 // console.log(this.mediaUrl);

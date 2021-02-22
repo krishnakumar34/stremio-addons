@@ -5,7 +5,7 @@
   "author": "Sleeyax <yourd3veloper@gmail.com>",
   "homepage": "https://github.com/sleeyax/stremio-addons#readme",
   "license": "MIT",
-  "main": "build/server.js",
+  "main": "build/serverless.js",
   "directories": {
     "lib": "build"
   },
